@@ -1,6 +1,6 @@
 <?php
-require 'vendor/autoload.php';
-use sandeepshetty\shopify_api;
+require_once 'vendor/autoload.php';
+use phpish\shopify;
 
 session_start(); //start a session
 
